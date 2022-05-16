@@ -1,0 +1,14 @@
+import model --modelname HAHM_variableMW_UFO
+define f = u c d s u~ c~ d~ s~ b b~ e+ e- m+ m- tt+ tt- ve vm vt ve~ vm~ vt~
+generate e+ e- > zp > f f
+output
+launch
+set ebeam1 = 0.030
+set ebeam2 = 0.030
+set run_tag = "two e-linacs"
+set mZDinput 0.013
+set width 1023 1.0165e-08
+launch
+set mZDinput 0.017
+set width 1023 1.329e-08
+launch
